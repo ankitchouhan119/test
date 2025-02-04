@@ -1,0 +1,12 @@
+react-docker-app/
+├── public/
+│   ├── index.html
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   └── styles.css
+├── docker-compose.yml
+├── package.json
+├── package-lock.json
+└── Dockerfile (if needed)
+

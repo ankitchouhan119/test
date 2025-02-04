@@ -1,0 +1,48 @@
+html,
+body {
+  height: 100%;
+  /* Make sure the page takes the full height */
+  margin: 0;
+  /* Remove any default margin */
+  padding: 0;
+  /* Remove any default padding */
+}
+
+.dashboard-container {
+  display: flex;
+  /* Enable flexbox */
+  flex-direction: row;
+  height: 100vh;
+  /* Make sure the container takes the full height */
+}
+
+.leftSide {
+  width: 20rem;
+  /* Fixed width for the sidebar */
+  background-color: #f0f4ff;
+  padding: 1rem;
+  border-right: 0.5rem solid #ddd;
+  height: 100%;
+  /* Sidebar takes up full height of the dashboard-container */
+  display: flex;
+  flex-direction: column;
+  /* Stack items vertically in sidebar */
+}
+
+.leftSide ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.leftSide li {
+  padding: 0.625rem 0.9375rem;
+  margin-bottom: 0.625rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.leftSide li.active {
+  background-color: var(--dark-blue-color);
+  color: white;
+}

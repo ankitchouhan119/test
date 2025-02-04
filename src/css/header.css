@@ -1,0 +1,26 @@
+/* Main header styles */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.5rem 1.5rem; /* Top-bottom: 1rem, Left-right: 2rem */
+    border-bottom: 0.1rem solid lightgray; /* Thin border */
+  }
+  
+  /* Left section (logo) */
+  .header-left .logo {
+    height: 4rem; /* Adjust logo height */
+    width: auto;    /* Maintain aspect ratio */
+  }
+  
+  /* Right section (circle) */
+  .header-right .circle {
+    width: 1.25rem; /* Circle width */
+    height: 1.25rem; /* Circle height */
+    background-color: #4a4aef; /* Circle color */
+    border-radius: 50%; /* Make it circular */
+  }
+  .profileLogo{
+    height: 3rem;
+  }

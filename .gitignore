@@ -1,0 +1,34 @@
+# IDE-specific files
+/.vscode/
+/.idea/
+.DS_Store
+
+# Compiled files
+/build/
+/dist/
+
+# Testing files
+/coverage/
+/test/
+/tests/
+/spec/
+/cypress/
+
+# Temporary files
+/.cache/
+/node_modules/
+npm-debug.log*
+package-lock.json
+
+# Logs
+*.log
+*.err
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.sublime-project
+*.sublime-workspace
+*.vscode/
